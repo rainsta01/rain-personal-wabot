@@ -1,0 +1,31 @@
+{
+  "name": "rain-personal-wabot",
+  "version": "1.0.0",
+  "description": "A simple personal WhatsApp bot built with Node.js and Baileys.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rainsta01/rain-personal-wabot.git"
+  },
+  "author": "rainsta01",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rainsta01/rain-personal-wabot/issues"
+  },
+  "homepage": "https://github.com/rainsta01/rain-personal-wabot#readme",
+  "keywords": [
+    "whatsapp-bot",
+    "baileys",
+    "nodejs",
+    "automation",
+    "bot"
+  ],
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "pino": "^10.3.1",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
